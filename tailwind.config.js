@@ -22,11 +22,12 @@ module.exports = {
         serif: [...defaultTheme.fontFamily.serif],
         mono: [...defaultTheme.fontFamily.mono],
       },
-      padding: {
-        sides: "clamp(3rem, 5vw, 5rem)",
-      },
       margin: {
+        11: "44px",
         26: "104px",
+      },
+      width: {
+        22: "88px",
       },
     },
   },
