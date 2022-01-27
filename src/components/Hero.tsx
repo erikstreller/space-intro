@@ -34,14 +34,14 @@ const Hero = () => {
       <img
         src={planet1}
         alt="sun"
-        className="fixed bottom-0 right-0
+        className="fixed bottom-0 right-0 z-10 lg:z-0 
       lg:scale-90 lg:-right-6 lg:-bottom-6 lg:opacity-95
       md:scale-[.7] md:-right-16 md:-bottom-16 sm:opacity-90"
       />
       <img
         src={planet2}
         alt="mars"
-        className="fixed top-[20vh] right-[13vw] 
+        className="fixed top-[20vh] right-[13vw] z-10 
         lg:right-20 lg:opacity-75
         md:scale-50 md:top-14 md:right-0
         sm:top-8 sm:-right-8 sm:scale-[.3]"
@@ -49,13 +49,13 @@ const Hero = () => {
       <img
         src={planet3}
         alt="moon1"
-        className="fixed bottom-[32vh] right-[25vw]
+        className="fixed bottom-[32vh] right-[25vw] z-10
         lg:opacity-75"
       />
       <img
         src={planet3}
         alt="moon2"
-        className="fixed bottom-[45vh] right-[9vw]
+        className="fixed bottom-[45vh] right-[9vw] z-10
         lg:opacity-75"
       />
     </section>
