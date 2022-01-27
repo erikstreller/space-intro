@@ -20,4 +20,14 @@
   .stroke {
     @apply w-22 h-1 rounded-full;
   }
+
+  /* About */
+  .line-dark {
+    @apply bg-dark rounded-full;
+  }
+
+  .overlay-text {
+    @apply absolute font-serif text-overlay text-dark opacity-10 leading-none
+    md:text-[150px] sm:text-[100px];
+  }
 }

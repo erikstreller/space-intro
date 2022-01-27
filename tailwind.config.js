@@ -18,9 +18,12 @@ module.exports = {
         dark: "#020C17",
       },
       fontFamily: {
-        sans: ["Work Sans", "sans-serif", ...defaultTheme.fontFamily.sans],
-        serif: [...defaultTheme.fontFamily.serif],
+        sans: ["Work Sans", ...defaultTheme.fontFamily.sans],
+        serif: ["Port Lligat Sans", ...defaultTheme.fontFamily.serif],
         mono: [...defaultTheme.fontFamily.mono],
+      },
+      fontSize: {
+        overlay: "clamp(64px, 15vw, 288px)",
       },
       margin: {
         11: "44px",

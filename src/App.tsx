@@ -1,4 +1,5 @@
 import { useState } from "react"
+import About from "./components/About"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import MenuOverlay from "./components/MenuOverlay"
@@ -11,6 +12,7 @@ function App() {
       <Header open={open} setOpen={setOpen} />
       <MenuOverlay open={open} setOpen={setOpen} />
       <Hero />
+      <About />
     </>
   )
 }
