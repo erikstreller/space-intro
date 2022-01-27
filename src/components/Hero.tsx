@@ -49,13 +49,13 @@ const Hero = () => {
       <img
         src={planet3}
         alt="moon1"
-        className="fixed bottom-[32vh] right-[25vw] z-10
+        className="fixed bottom-[32vh] right-[25vw] z-10 sm:z-0
         lg:opacity-75"
       />
       <img
         src={planet3}
         alt="moon2"
-        className="fixed bottom-[45vh] right-[9vw] z-10
+        className="fixed bottom-[45vh] right-[9vw] z-10 sm:z-0
         lg:opacity-75"
       />
     </section>

@@ -1,3 +1,5 @@
+import planet3 from "../assets/planet3.png"
+
 const About = () => {
   return (
     <section className="h-screen w-full bg-light relative flex justify-center">
@@ -32,6 +34,16 @@ const About = () => {
       </div>
       <div className="overlay-text bottom-[1%] left-[2%]">Lorem</div>
       <div className="overlay-text bottom-[8.5%] left-[7.25%]">ipsum</div>
+      <img
+        src={planet3}
+        alt="moon1"
+        className="absolute bottom-[27vh] left-[25vw] hidden sm:flex lg:opacity-75"
+      />
+      <img
+        src={planet3}
+        alt="moon2"
+        className="absolute bottom-[40vh] left-[9vw] hidden sm:flex lg:opacity-75"
+      />
     </section>
   )
 }
