@@ -2,10 +2,19 @@ const About = () => {
   return (
     <section className="h-screen w-full bg-light relative flex justify-center">
       <div
-        className="absolute lg:text-4xl text-5xl lg:max-w-[35%] max-w-[38%] md:max-w-[65%] 
+        className="absolute lg:text-4xl text-5xl text-dark lg:max-w-[35%] max-w-[38%] md:max-w-[65%] 
         top-[32vh] right-1/2 md:right-0 mr-12 md:px-auto text-right leading-[1.1] whitespace-pre-line"
       >
         Hey. I’am Erik.{"\n"} Lorem ipsum dolor sit amet, consetetur.
+      </div>
+      <div
+        className="absolute text-4xl lg:text-3xl text-dark whitespace-pre-line z-10 md:z-0 w-fit
+        bottom-[2.5%] left-1/2 ml-12 md:left-auto md:-right-[72px]
+        md:-rotate-90 md:bottom-36
+        "
+      >
+        mechanical engineer{"\n"}
+        coding enthusiast
       </div>
       <div
         className="absolute flex md:flex-col justify-between 
