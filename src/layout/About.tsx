@@ -4,7 +4,10 @@ import TextOverlay from "../components/TextOverlay"
 
 const About = () => {
   return (
-    <section className="h-screen w-full bg-light relative flex justify-center">
+    <section
+      id="about"
+      className="h-screen w-full bg-light relative flex justify-center"
+    >
       <div
         className="absolute lg:text-4xl text-5xl text-dark lg:max-w-[35%] max-w-[38%] md:max-w-[65%] 
         top-[32vh] right-1/2 md:right-0 mr-12 md:px-auto text-right leading-[1.1] whitespace-pre-line"

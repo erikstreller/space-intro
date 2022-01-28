@@ -6,7 +6,10 @@ import TextOverlay from "../components/TextOverlay"
 
 const Skills = () => {
   return (
-    <section className="h-screen w-full bg-paper relative z-10 flex justify-center">
+    <section
+      id="skills"
+      className="h-screen w-full bg-paper relative z-10 flex justify-center"
+    >
       <LineTrio />
       <TextOverlay />
       <div className="relative h-[95vh] w-0.5 bg-dark rounded-full my-auto md:hidden"></div>
