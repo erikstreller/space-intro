@@ -1,6 +1,7 @@
 import blueAbstrac from "../assets/blue-abstract.png"
 import whiteAbstract from "../assets/white-abstract.png"
 import LineTrio from "../components/LineTrio"
+import SectionNumber from "../components/SectionNumber"
 import TextOverlay from "../components/TextOverlay"
 
 const Skills = () => {
@@ -46,6 +47,7 @@ const Skills = () => {
           className="absolute top-[17%] right-[9.75vw] lg:scale-[.6] lg:-right-[3vw] md:scale-50"
         />
       </div>
+      <SectionNumber number={3} />
     </section>
   )
 }
