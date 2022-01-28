@@ -3,6 +3,7 @@ import About from "./components/About"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import MenuOverlay from "./components/MenuOverlay"
+import Skills from "./components/Skills"
 
 function App() {
   const [open, setOpen] = useState<boolean>(false)
@@ -13,6 +14,7 @@ function App() {
       <MenuOverlay open={open} setOpen={setOpen} />
       <Hero />
       <About />
+      <Skills />
     </>
   )
 }
