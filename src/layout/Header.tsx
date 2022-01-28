@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react"
 import { FiGithub } from "react-icons/fi"
 import { RiLinkedinFill } from "react-icons/ri"
 
@@ -7,6 +8,24 @@ interface LinksProps {
 }
 
 const Header = ({ open, setOpen }: MenuProps) => {
+  const [color, setColor] = useState<string>("")
+
+  const changeTextColor = () => {
+    if (
+      window.scrollY >= document.body.scrollHeight / 4 &&
+      window.scrollY <= document.body.scrollHeight / 1.4
+    ) {
+      setColor("dark")
+    } else {
+      setColor("light")
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeTextColor, true)
+    return () => window.removeEventListener("scroll", changeTextColor)
+  })
+
   const links: LinksProps[] = [
     {
       icon: <RiLinkedinFill />,
@@ -19,7 +38,9 @@ const Header = ({ open, setOpen }: MenuProps) => {
   ]
 
   return (
-    <header className="fixed z-40 top-0 w-full text-light sm:py-5 sm:px-[6.25%] px-10 pt-10 flex justify-between">
+    <header
+      className={`fixed z-40 top-0 w-full text-${color} sm:py-5 sm:px-[6.25%] px-10 pt-10 flex justify-between`}
+    >
       <button
         className="header-link sm:text-xl text-2xl"
         onClick={() =>
@@ -54,12 +75,12 @@ const Header = ({ open, setOpen }: MenuProps) => {
       >
         <div className="absolute sm:w-6 w-8 transform -translate-x-1/2 -translate-y-1/2 left-1 top-1/2">
           <span
-            className={`absolute h-[0.188rem] sm:w-6 w-8 bg-white transform transition duration-300 ease-in-out ${
+            className={`absolute h-[0.188rem] sm:w-6 w-8 bg-${color} transform transition duration-300 ease-in-out ${
               open ? "rotate-45 delay-200" : "-translate-y-1.5"
             }`}
           />
           <span
-            className={`absolute h-[0.188rem] sm:w-6 w-8 bg-white transform transition duration-300 ease-in-out ${
+            className={`absolute h-[0.188rem] sm:w-6 w-8 bg-${color} transform transition duration-300 ease-in-out ${
               open ? "-rotate-45 delay-200" : "translate-y-1.5"
             }`}
           />
