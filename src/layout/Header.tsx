@@ -13,7 +13,7 @@ const Header = ({ open, setOpen }: MenuProps) => {
   const changeTextColor = () => {
     if (
       window.scrollY >= document.body.scrollHeight / 4 &&
-      window.scrollY <= document.body.scrollHeight / 1.4
+      window.scrollY <= document.body.scrollHeight / 1.35
     ) {
       setColor("dark")
     } else {
