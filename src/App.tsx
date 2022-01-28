@@ -1,6 +1,7 @@
 import { useState } from "react"
 import MenuOverlay from "./components/MenuOverlay"
 import About from "./layout/About"
+import Contact from "./layout/Contact"
 import Header from "./layout/Header"
 import Hero from "./layout/Hero"
 import Skills from "./layout/Skills"
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
+      <Contact />
     </>
   )
 }
