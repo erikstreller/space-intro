@@ -1,9 +1,9 @@
 import { useState } from "react"
-import About from "./components/About"
-import Header from "./components/Header"
-import Hero from "./components/Hero"
 import MenuOverlay from "./components/MenuOverlay"
-import Skills from "./components/Skills"
+import About from "./layout/About"
+import Header from "./layout/Header"
+import Hero from "./layout/Hero"
+import Skills from "./layout/Skills"
 
 function App() {
   const [open, setOpen] = useState<boolean>(false)

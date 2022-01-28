@@ -30,4 +30,9 @@
     @apply absolute font-serif text-overlay text-dark opacity-10 leading-none
     md:text-[150px] sm:text-[100px];
   }
+
+  /* Skills */
+  .technology-text {
+    @apply text-7xl lg:text-5xl md:text-4xl opacity-30 font-serif absolute;
+  }
 }
