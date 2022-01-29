@@ -35,7 +35,7 @@ const Hero = () => {
       <img
         src={planet1}
         alt="sun"
-        className="fixed bottom-0 right-0 z-10 lg:z-0 
+        className="fixed bottom-0 right-0 z-0 
       lg:scale-90 lg:-right-6 lg:-bottom-6 lg:opacity-95
       md:scale-[.7] md:-right-16 md:-bottom-16 sm:opacity-90"
       />

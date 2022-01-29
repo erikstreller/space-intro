@@ -33,7 +33,7 @@ module.exports = {
         22: "88px",
       },
       inset: {
-        center: `calc(50% - 1px)`,
+        center: `calc(50% - 65px)`,
       },
     },
   },

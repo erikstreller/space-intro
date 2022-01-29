@@ -16,8 +16,8 @@ function App() {
       <Header open={open} setOpen={setOpen} />
       <MenuOverlay open={open} setOpen={setOpen} />
       <Hero />
-      <About />
       <Skills />
+      <About />
       <Contact />
     </>
   )
