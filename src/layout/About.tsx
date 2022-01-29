@@ -25,7 +25,7 @@ const About = () => {
         coding enthusiast
       </div>
       <LineTrio />
-      <div className="relative h-[95vh] w-0.5 bg-dark rounded-full my-auto md:hidden"></div>
+      {/* <div className="relative h-[95vh] w-0.5 bg-dark rounded-full my-auto md:hidden"></div> */}
       <div className="absolute top-[407px] left-10 text-dark text-2xl sm:hidden">
         <div className="-rotate-90">4</div>
         <div className="h-6 w-0.5 bg-dark rounded-full ml-[6px]" />

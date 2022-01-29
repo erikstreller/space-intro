@@ -12,7 +12,7 @@ const Skills = () => {
     >
       <LineTrio />
       <TextOverlay />
-      <div className="relative h-[95vh] w-0.5 bg-dark rounded-full my-auto md:hidden"></div>
+      {/* <div className="relative h-[95vh] w-0.5 bg-dark rounded-full my-auto md:hidden"></div> */}
       <div
         className="absolute text-4xl lg:text-3xl text-dark whitespace-pre-line leading-loose 
         w-fit left-[25vw] lg:left-[15vw] md:left-10 sm:left-[6.25%] top-[290px] lg:leading-loose "

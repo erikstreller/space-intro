@@ -32,6 +32,9 @@ module.exports = {
       width: {
         22: "88px",
       },
+      inset: {
+        center: `calc(50% - 1px)`,
+      },
     },
   },
   plugins: [],

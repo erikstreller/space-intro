@@ -1,5 +1,6 @@
 import { useState } from "react"
 import MenuOverlay from "./components/MenuOverlay"
+import ScrollingStroke from "./components/ScrollingStroke"
 import About from "./layout/About"
 import Contact from "./layout/Contact"
 import Header from "./layout/Header"
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <>
+      <ScrollingStroke />
       <Header open={open} setOpen={setOpen} />
       <MenuOverlay open={open} setOpen={setOpen} />
       <Hero />
