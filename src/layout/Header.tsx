@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react"
+import { ReactNode, useEffect, useState } from "react"
 import { FiGithub } from "react-icons/fi"
 import { RiLinkedinFill } from "react-icons/ri"
 
 interface LinksProps {
-  icon: JSX.Element
+  icon: ReactNode
   href: string
 }
 
