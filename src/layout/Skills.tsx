@@ -42,7 +42,7 @@ const Skills = () => {
           src={whiteAbstract}
           alt="white abstract"
           className="absolute z-10 opacity-90 top-[21%] right-[12vw] lg:scale-[.6] lg:right-[1vw] 
-          md:scale-50 hover:rotate-90 transition-all duration-300 ease-in-out"
+          md:scale-50 transition-all duration-300 ease-in-out"
         />
         <img
           src={blueAbstrac}

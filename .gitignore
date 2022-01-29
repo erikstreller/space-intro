@@ -20,3 +20,6 @@ Thumbs.db
 # Ignore the build directory
 /dist
 /dist-ssr
+
+# Ignore temp files
+temp/
