@@ -62,10 +62,7 @@ const Header = ({ open, setOpen }: MenuProps) => {
             {link.icon}
           </a>
         ))}
-        <a
-          href=""
-          className="header-link hover:line-through hover:opacity-100 hover:text-primary"
-        >
+        <a className="header-link hover:line-through hover:opacity-100 hover:text-primary">
           Design
         </a>
       </div>
