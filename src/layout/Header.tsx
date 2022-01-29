@@ -8,11 +8,11 @@ interface LinksProps {
 }
 
 const Header = ({ open, setOpen }: MenuProps) => {
-  const [color, setColor] = useState<string>("")
+  const [color, setColor] = useState<string>("light")
 
   const changeTextColor = () => {
     if (
-      window.scrollY >= document.body.scrollHeight / 4 &&
+      window.scrollY >= document.body.scrollHeight / 4.2 &&
       window.scrollY <= document.body.scrollHeight / 1.35
     ) {
       setColor("dark")
