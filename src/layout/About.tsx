@@ -1,5 +1,6 @@
 import planet3 from "../assets/planet3.png"
 import LineTrio from "../components/LineTrio"
+import SectionNumber from "../components/SectionNumber"
 import TextOverlay from "../components/TextOverlay"
 
 const About = () => {
@@ -41,6 +42,7 @@ const About = () => {
         alt="moon2"
         className="absolute bottom-[40vh] left-[9vw] hidden sm:flex lg:opacity-75"
       />
+      <SectionNumber number={2} />
     </section>
   )
 }

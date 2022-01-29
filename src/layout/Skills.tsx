@@ -51,6 +51,11 @@ const Skills = () => {
         />
       </div>
       <SectionNumber number={3} />
+      <div className="absolute top-[569px] left-10 text-dark text-2xl sm:hidden">
+        <div className="-rotate-90">4</div>
+        <div className="h-6 w-0.5 bg-dark rounded-full ml-[6px]" />
+        <div className="-rotate-90">3</div>
+      </div>
     </section>
   )
 }

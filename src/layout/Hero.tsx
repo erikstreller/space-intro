@@ -1,6 +1,7 @@
 import planet1 from "../assets/planet1.png"
 import planet2 from "../assets/planet2.png"
 import planet3 from "../assets/planet3.png"
+import SectionNumber from "../components/SectionNumber"
 
 const Hero = () => {
   return (
@@ -58,6 +59,7 @@ const Hero = () => {
         className="fixed bottom-[45vh] right-[9vw] z-10 sm:z-0
         lg:opacity-75"
       />
+      <SectionNumber number={1} numberColor="light" />
     </section>
   )
 }
