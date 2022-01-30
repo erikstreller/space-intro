@@ -1,47 +1,41 @@
-import planet3 from "../assets/planet3.png"
-import LineTrio from "../components/LineTrio"
+import blueAbstrac from "../assets/blue-abstract.png"
+import whiteAbstract from "../assets/white-abstract.png"
 import SectionNumber from "../components/SectionNumber"
+import SectionText from "../components/SectionText"
 import TextOverlay from "../components/TextOverlay"
+
+const aboutTitle: string = "Hey. I’am Erik.\n Nice to meet you."
+const aboutDescription: string =
+  "I’m a mechanical engineer and a coding enthusiast who loves technology. I’m always excited for new things to learn and to improve my knowledge."
 
 const About = () => {
   return (
     <section
       id="about"
-      className="h-screen w-full bg-paper relative flex justify-center"
+      className="h-screen w-full bg-light relative flex justify-center z-10"
     >
-      <div
-        className="absolute lg:text-4xl text-5xl text-dark lg:max-w-[35%] max-w-[38%] md:max-w-[65%] 
-        top-[32vh] right-1/2 md:right-0 mr-12 md:px-auto text-right leading-[1.1] whitespace-pre-line"
-      >
-        Hey. I’am Erik.{"\n"} Lorem ipsum dolor sit amet, consetetur.
-      </div>
-      <div
-        className="absolute text-4xl lg:text-3xl text-dark whitespace-pre-line z-10 md:z-0 w-fit
-        bottom-[2.5%] left-1/2 ml-12 md:left-auto md:-right-[72px]
-        md:-rotate-90 md:bottom-36
-        "
-      >
-        mechanical engineer{"\n"}
-        coding enthusiast
-      </div>
-      <LineTrio />
-      {/* <div className="relative h-[95vh] w-0.5 bg-dark rounded-full my-auto md:hidden"></div> */}
-      <div className="absolute top-[407px] left-10 text-dark text-2xl sm:hidden">
+      <SectionText title={aboutTitle} description={aboutDescription} />
+
+      <div className="absolute top-[40.5vh] left-10 text-dark text-2xl sm:hidden">
         <div className="-rotate-90">4</div>
         <div className="h-6 w-0.5 bg-dark rounded-full ml-[6px]" />
         <div className="-rotate-90">2</div>
       </div>
       <TextOverlay />
-      <img
-        src={planet3}
-        alt="moon1"
-        className="absolute bottom-[27vh] left-[25vw] hidden sm:flex lg:opacity-75"
-      />
-      <img
-        src={planet3}
-        alt="moon2"
-        className="absolute bottom-[40vh] left-[9vw] hidden sm:flex lg:opacity-75"
-      />
+      <div className="flex">
+        <img
+          src={whiteAbstract}
+          alt="white abstract"
+          className="absolute z-10 opacity-90 top-[25%] right-[16vw] xl:right-[9vw] lg:scale-[.6] xl:scale-[.85] lg:right-[1vw] 
+          md:scale-50 transition-all duration-300 ease-in-out"
+        />
+        <img
+          src={blueAbstrac}
+          alt="blue abstract"
+          className="absolute top-[21%] right-[13.75vw] xl:right-[6.75vw] lg:scale-[.6] xl:scale-[.85] lg:-right-[3vw] 
+          md:scale-50 transition-all duration-300 ease-in-out"
+        />
+      </div>
       <SectionNumber number={2} />
     </section>
   )

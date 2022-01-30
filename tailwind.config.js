@@ -4,6 +4,7 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     screens: {
+      xl: { max: "1600px" },
       lg: { max: "1250px" },
       md: { max: "800px" },
       sm: { max: "420px" },

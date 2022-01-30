@@ -27,7 +27,7 @@ const Hero = () => {
         {/* <div className="h-20 w-0.5 bg-light rounded-full" /> */}
         <div className="ml-4">down</div>
       </div>
-      <div className="absolute top-64 left-10 text-light text-2xl sm:hidden">
+      <div className="absolute top-[25.5vh] left-10 text-light text-2xl sm:hidden">
         <div className="-rotate-90">4</div>
         <div className="h-6 w-0.5 bg-light rounded-full ml-[6px]" />
         <div className="-rotate-90">1</div>
@@ -35,7 +35,7 @@ const Hero = () => {
       <img
         src={planet1}
         alt="sun"
-        className="fixed bottom-0 right-0 z-0 
+        className="fixed bottom-0 right-0 z-10 
       lg:scale-90 lg:-right-6 lg:-bottom-6 lg:opacity-95
       md:scale-[.7] md:-right-16 md:-bottom-16 sm:opacity-90"
       />
