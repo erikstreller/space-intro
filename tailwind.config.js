@@ -25,6 +25,8 @@ module.exports = {
       },
       fontSize: {
         overlay: "clamp(64px, 15vw, 288px)",
+        "section-title": "clamp(36px, 4vw, 48px)",
+        "section-description": "clamp(20px, 2vw, 24px)",
       },
       margin: {
         11: "44px",
@@ -32,6 +34,10 @@ module.exports = {
       },
       width: {
         22: "88px",
+      },
+      maxWidth: {
+        "section-description": "clamp(250px, 30vw, 512px)",
+        "section-description-md": "clamp(250px, 70vw, 512px)",
       },
       inset: {
         center: `calc(50% - 65px)`,

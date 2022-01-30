@@ -22,18 +22,16 @@ const About = () => {
         <div className="-rotate-90">2</div>
       </div>
       <TextOverlay />
-      <div className="flex">
+      <div className="flex flex-col justify-center items-center w-1/2 h-full ml-auto md:hidden">
         <img
           src={whiteAbstract}
           alt="white abstract"
-          className="absolute z-10 opacity-90 top-[25%] right-[16vw] xl:right-[9vw] lg:scale-[.6] xl:scale-[.85] lg:right-[1vw] 
-          md:scale-50 transition-all duration-300 ease-in-out"
+          className="absolute z-10 opacity-90 my-auto mx-auto lg:scale-[.6] xl:scale-[.85] md:scale-50 transition-all duration-300 ease-in-out"
         />
         <img
           src={blueAbstrac}
           alt="blue abstract"
-          className="absolute top-[21%] right-[13.75vw] xl:right-[6.75vw] lg:scale-[.6] xl:scale-[.85] lg:-right-[3vw] 
-          md:scale-50 transition-all duration-300 ease-in-out"
+          className="absolute my-auto mx-auto pl-20 pb-20 lg:scale-[.6] xl:scale-[.85] md:scale-50 transition-all duration-300 ease-in-out"
         />
       </div>
       <SectionNumber number={2} />

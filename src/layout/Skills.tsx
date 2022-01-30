@@ -1,4 +1,3 @@
-import planet3 from "../assets/planet3.png"
 import SectionNumber from "../components/SectionNumber"
 import SectionText from "../components/SectionText"
 import TextOverlay from "../components/TextOverlay"
@@ -16,16 +15,6 @@ const Skills = () => {
       <TextOverlay />
       {/* <div className="relative h-[95vh] w-0.5 bg-dark rounded-full my-auto md:hidden"></div> */}
       <SectionText title={skillTitle} description={skillDescription} />
-      <img
-        src={planet3}
-        alt="moon1"
-        className="absolute bottom-[27vh] left-[25vw] hidden sm:flex lg:opacity-75"
-      />
-      <img
-        src={planet3}
-        alt="moon2"
-        className="absolute bottom-[40vh] left-[9vw] hidden sm:flex lg:opacity-75"
-      />
       <SectionNumber number={3} />
       <div className="absolute top-[55.5vh] left-10 text-dark text-2xl sm:hidden">
         <div className="-rotate-90">4</div>
