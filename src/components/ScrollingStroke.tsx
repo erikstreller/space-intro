@@ -32,7 +32,7 @@ const ScrollingStroke = () => {
   })
 
   return (
-    <div className="absolute top-[50vh] left-center h-[300vh] overflow-hidden z-20">
+    <div className="absolute top-[50vh] left-center h-[300vh] overflow-hidden z-20 md:opacity-90">
       <svg
         viewBox="0 0 130 2929"
         fill="none"

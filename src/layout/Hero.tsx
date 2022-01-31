@@ -9,7 +9,7 @@ const Hero = () => {
       id="hero"
       className="h-screen w-full top-0 flex justify-center bg-gradient-to-b from-darkblue to-dark"
     >
-      <div className="text-light text-center md:pt-32 pt-[24vh] sm:px-[11%] z-10">
+      <div className="text-light text-center md:pt-32 pt-[24vh] sm:px-[11%] z-30">
         <div className="sm:text-4xl text-5xl md:max-w-sm max-w-lg mb-8">
           Lorem ipsum dolor sit amet, consetetur
         </div>

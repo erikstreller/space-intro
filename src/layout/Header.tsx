@@ -39,7 +39,7 @@ const Header = ({ open, setOpen }: MenuProps) => {
 
   return (
     <header
-      className={`fixed z-40 top-0 w-full text-${color} sm:py-5 sm:px-[6.25%] px-10 pt-10 flex justify-between`}
+      className={`fixed z-50 top-0 w-full text-${color} sm:py-5 sm:px-[6.25%] px-10 pt-10 flex justify-between`}
     >
       <button
         className="header-link sm:text-xl text-2xl"

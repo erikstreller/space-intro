@@ -12,10 +12,10 @@ const About = () => {
   return (
     <section
       id="about"
-      className="h-screen w-full bg-light relative flex justify-center z-10"
+      className="h-screen w-full relative flex justify-center"
     >
+      <div className="absolute h-full w-full bg-light z-10" />
       <SectionText title={aboutTitle} description={aboutDescription} />
-
       <div className="absolute top-[40.5vh] left-10 text-dark text-2xl sm:hidden">
         <div className="-rotate-90">4</div>
         <div className="h-6 w-0.5 bg-dark rounded-full ml-[6px]" />

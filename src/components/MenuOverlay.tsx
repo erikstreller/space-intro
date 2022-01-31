@@ -35,7 +35,7 @@ const MenuOverlay = ({ open, setOpen }: MenuProps) => {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-30 bg-gradient-to-r from-primary to-secondary transition-all duration-300 delay-300 ${
+      className={`fixed top-0 w-full z-40 bg-gradient-to-r from-primary to-secondary transition-all duration-300 delay-300 ${
         open ? "opacity-100" : "opacity-0 -translate-x-full"
       }`}
     >
