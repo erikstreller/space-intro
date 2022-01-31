@@ -34,6 +34,7 @@ module.exports = {
       },
       width: {
         22: "88px",
+        "section-number-line": "clamp(36px, 4vw, 50px)",
       },
       maxWidth: {
         "section-description": "clamp(250px, 30vw, 512px)",

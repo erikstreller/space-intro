@@ -17,9 +17,11 @@ const SectionNumber = ({
   return (
     <div className="flex justify-center items-center absolute bottom-6 right-7 z-10">
       <div
-        className={`h-0.5 w-16 rounded-full opacity-30 bg-${lineColor} sm:hidden`}
+        className={`h-0.5 w-section-number-line rounded-full opacity-30 bg-${lineColor} sm:hidden`}
       />
-      <div className={`font-serif text-5xl ml-[18px] text-${numberColor}`}>
+      <div
+        className={`font-serif text-section-title ml-[18px] text-${numberColor}`}
+      >
         0{number}
       </div>
     </div>
