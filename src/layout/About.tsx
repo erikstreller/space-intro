@@ -16,7 +16,7 @@ const About = () => {
     >
       <div className="absolute h-full w-full bg-light z-10" />
       <SectionText title={aboutTitle} description={aboutDescription} />
-      <div className="absolute top-[40.5vh] left-10 text-dark text-2xl sm:hidden">
+      <div className="absolute top-[40.5vh] left-10 text-dark text-2xl sm:hidden z-10">
         <div className="-rotate-90">4</div>
         <div className="h-6 w-0.5 bg-dark rounded-full ml-[6px]" />
         <div className="-rotate-90">2</div>
@@ -26,12 +26,12 @@ const About = () => {
         <img
           src={whiteAbstract}
           alt="white abstract"
-          className="absolute z-10 opacity-90 my-auto mx-auto lg:scale-[.6] xl:scale-[.85] md:scale-50 transition-all duration-300 ease-in-out"
+          className="absolute z-20 opacity-90 my-auto mx-auto lg:scale-[.6] xl:scale-[.85] md:scale-50 transition-all duration-300 ease-in-out"
         />
         <img
           src={blueAbstrac}
           alt="blue abstract"
-          className="absolute my-auto mx-auto pl-20 pb-20 lg:scale-[.6] xl:scale-[.85] md:scale-50 transition-all duration-300 ease-in-out"
+          className="absolute z-10 my-auto mx-auto pl-20 pb-20 lg:scale-[.6] xl:scale-[.85] md:scale-50 transition-all duration-300 ease-in-out"
         />
       </div>
       <SectionNumber number={2} />
