@@ -4,7 +4,7 @@ import TextOverlay from "../components/TextOverlay"
 
 const skillTitle: string = "About my interests"
 const skillDescription: string =
-  "I like to use React with Typescript in combination with Mui or TailwindCss and to design pages on Figma.\n\n For data analyses or visualization and for game or automation projects I use Python."
+  "I love frontend technologies and automation processes. I like to use React with Typescript in combination with Mui or TailwindCss. For planning and design I use Figma. And Python is my first choice for small games and automation projects."
 
 const Skills = () => {
   return (
@@ -12,7 +12,7 @@ const Skills = () => {
       id="skills"
       className="h-screen w-full bg-paper relative flex justify-center"
     >
-      <TextOverlay topText="ipsum" bottomText="Lorem" />
+      <TextOverlay topText="React" bottomText="Python" />
       <SectionText title={skillTitle} description={skillDescription} />
       <SectionNumber number={3} />
       <div className="absolute top-[55.5vh] left-10 text-dark text-2xl sm:hidden">

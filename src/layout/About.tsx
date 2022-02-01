@@ -4,9 +4,9 @@ import SectionNumber from "../components/SectionNumber"
 import SectionText from "../components/SectionText"
 import TextOverlay from "../components/TextOverlay"
 
-const aboutTitle: string = "Hey. I’am Erik.\n Nice to meet you."
+const aboutTitle: string = "Nice to meet you"
 const aboutDescription: string =
-  "I’m a mechanical engineer and a coding enthusiast who loves technology. I’m always excited for new things to learn and to improve my knowledge."
+  "I created this section to say “hello” and introduce myself. Currently I'm living and working in Germany, but that will change soon and my new home will be Portugal, where I want to work as an intern in software development. Exciting times are ahead of me!"
 
 const About = () => {
   return (
@@ -21,7 +21,7 @@ const About = () => {
         <div className="h-6 w-0.5 bg-dark rounded-full ml-[6px]" />
         <div className="-rotate-90">2</div>
       </div>
-      <TextOverlay topText="ipsum" bottomText="Lorem" />
+      <TextOverlay topText="Olá" bottomText="Lisbon" />
       <div className="flex flex-col justify-center items-center w-1/2 h-full ml-auto md:hidden">
         <img
           src={whiteAbstract}

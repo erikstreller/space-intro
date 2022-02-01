@@ -24,7 +24,7 @@ const MenuOverlay = ({ open, setOpen }: MenuProps) => {
       href: "about",
     },
     {
-      name: "Skill Set",
+      name: "Interests",
       href: "skills",
     },
     {

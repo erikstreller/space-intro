@@ -11,15 +11,15 @@ const Hero = () => {
     >
       <div className="text-light text-center md:pt-32 pt-[24vh] sm:px-[11%] z-30">
         <div className="sm:text-4xl text-5xl md:max-w-sm max-w-lg mb-8">
-          Lorem ipsum dolor sit amet, consetetur
+          I’m Erik, I design and build things for fun.
         </div>
         <div className="w-fit mx-auto">
           <div className="stroke bg-primary sm:mr-0 mr-14 mb-5" />
           <div className="stroke bg-secondary sm:ml-0 ml-14 sm:absolute sm:top-24" />
         </div>
         <div className="sm:text-xl text-2xl md:max-w-sm max-w-md mx-auto mt-10">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+          I did my diploma in mechanical engineering where I used python to
+          analyze and visualize data. Eversince coding hooked me.
         </div>
       </div>
       <div className="text-light absolute bottom-3 flex items-center md:hidden">
