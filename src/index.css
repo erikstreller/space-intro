@@ -27,7 +27,7 @@
   }
 
   .overlay-text {
-    @apply absolute font-serif text-overlay text-dark opacity-10 leading-none
+    @apply absolute font-serif text-overlay text-darkblue opacity-10 leading-none
     md:text-[150px] sm:text-[100px];
   }
 

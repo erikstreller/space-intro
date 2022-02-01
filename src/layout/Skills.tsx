@@ -12,8 +12,7 @@ const Skills = () => {
       id="skills"
       className="h-screen w-full bg-paper relative flex justify-center"
     >
-      <TextOverlay />
-      {/* <div className="relative h-[95vh] w-0.5 bg-dark rounded-full my-auto md:hidden"></div> */}
+      <TextOverlay topText="ipsum" bottomText="Lorem" />
       <SectionText title={skillTitle} description={skillDescription} />
       <SectionNumber number={3} />
       <div className="absolute top-[55.5vh] left-10 text-dark text-2xl sm:hidden">

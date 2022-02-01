@@ -21,7 +21,7 @@ const About = () => {
         <div className="h-6 w-0.5 bg-dark rounded-full ml-[6px]" />
         <div className="-rotate-90">2</div>
       </div>
-      <TextOverlay />
+      <TextOverlay topText="ipsum" bottomText="Lorem" />
       <div className="flex flex-col justify-center items-center w-1/2 h-full ml-auto md:hidden">
         <img
           src={whiteAbstract}
