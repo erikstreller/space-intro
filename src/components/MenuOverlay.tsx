@@ -1,3 +1,5 @@
+import Credits from "./Credits"
+
 interface SectionProps {
   name: string
   href: string
@@ -39,6 +41,7 @@ const MenuOverlay = ({ open, setOpen }: MenuProps) => {
         open ? "opacity-100" : "opacity-0 -translate-x-full"
       }`}
     >
+      <Credits />
       <ul className="w-full h-screen flex flex-col items-center justify-center">
         {sections.map((section) => (
           <li
