@@ -24,7 +24,6 @@ const Hero = () => {
       </div>
       <div className="text-light absolute bottom-3 flex items-center md:hidden">
         <div className="mr-4">scroll</div>
-        {/* <div className="h-20 w-0.5 bg-light rounded-full" /> */}
         <div className="ml-4">down</div>
       </div>
       <div className="absolute top-[25.5vh] left-10 text-light text-2xl sm:hidden">
