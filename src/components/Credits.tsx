@@ -1,6 +1,8 @@
 const Credits = () => {
   return (
     <p className="text-light text-xs absolute sm:left-[6.25%] left-10 bottom-10">
+      Designed {"&"} coded by Erik Streller
+      <br />
       Art -01
       <a href="https://www.figma.com/@seda" target="_blank">
         {" "}
