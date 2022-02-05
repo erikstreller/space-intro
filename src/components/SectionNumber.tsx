@@ -15,7 +15,10 @@ const SectionNumber = ({
   number,
 }: SectionNumberProps) => {
   return (
-    <div className="flex justify-center items-center absolute bottom-6 right-7 z-10">
+    <div
+      className="flex justify-center items-center absolute bottom-6 right-7 z-10"
+      id="section-number"
+    >
       <div
         className={`h-0.5 w-section-number-line rounded-full opacity-30 bg-${lineColor} sm:hidden`}
       />
