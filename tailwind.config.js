@@ -39,6 +39,8 @@ module.exports = {
       maxWidth: {
         "section-description": "clamp(250px, 30vw, 512px)",
         "section-description-md": "clamp(250px, 70vw, 512px)",
+        "hero-title": "clamp(350px, 70vw, 512px)",
+        "hero-subtitle": "clamp(350px, 70vw, 384px)",
       },
       inset: {
         center: `calc(50% - 65px)`,

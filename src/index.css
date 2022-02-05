@@ -28,7 +28,7 @@
 
   .overlay-text {
     @apply absolute font-serif text-overlay text-darkblue opacity-10 leading-none
-    md:text-[150px] sm:text-[100px];
+    md:text-[145px] sm:text-[100px];
   }
 
   /* Skills */

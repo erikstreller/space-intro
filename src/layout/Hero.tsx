@@ -9,10 +9,10 @@ const Hero = () => {
       id="hero"
       className="h-screen w-full top-0 flex justify-center bg-gradient-to-b from-darkblue to-dark"
     >
-      <div className="text-light text-center md:pt-32 pt-[24vh] sm:px-[11%] z-30">
+      <div className="text-light text-center sm:pt-32 pt-[24vh] sm:px-[11%] z-30">
         {/* min height to prevent cut off text on bottom with gsap */}
         <div
-          className="sm:text-4xl text-5xl md:max-w-sm max-w-lg mb-8 min-h-[100px]"
+          className="sm:text-4xl text-5xl md:max-w-hero-title max-w-lg mb-8 min-h-[100px]"
           id="hero-title"
         >
           I’m Erik, I design and build things for fun.
@@ -28,7 +28,7 @@ const Hero = () => {
           />
         </div>
         <div
-          className="sm:text-xl text-2xl md:max-w-sm max-w-md mx-auto mt-10"
+          className="sm:text-xl text-2xl md:max-w-hero-subtitle max-w-md mx-auto mt-10"
           id="hero-subtitle"
         >
           I did my diploma in mechanical engineering where I used python to
@@ -43,7 +43,7 @@ const Hero = () => {
         <div className="ml-4">down</div>
       </div>
       <div
-        className="absolute top-[25.5vh] left-10 text-light text-2xl sm:hidden"
+        className="absolute top-[25.5vh] left-10 text-light text-2xl md:hidden"
         id="page-number"
       >
         <div className="-rotate-90">4</div>
