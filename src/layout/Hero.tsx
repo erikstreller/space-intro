@@ -10,8 +10,9 @@ const Hero = () => {
       className="h-screen w-full top-0 flex justify-center bg-gradient-to-b from-darkblue to-dark"
     >
       <div className="text-light text-center md:pt-32 pt-[24vh] sm:px-[11%] z-30">
+        {/* min height to prevent cut off text on bottom with gsap */}
         <div
-          className="sm:text-4xl text-5xl md:max-w-sm max-w-lg mb-8"
+          className="sm:text-4xl text-5xl md:max-w-sm max-w-lg mb-8 min-h-[100px]"
           id="hero-title"
         >
           I’m Erik, I design and build things for fun.
@@ -49,36 +50,30 @@ const Hero = () => {
         <div className="h-6 w-0.5 bg-light rounded-full ml-[6px]" />
         <div className="-rotate-90">1</div>
       </div>
-      <img
-        src={planet1}
-        alt="sun"
+      {/* img inside div for tailwind breakpoints (scale and opacity) to properly work with gsap */}
+      <div
+        className="fixed bottom-0 right-0 z-10 lg:-right-6 lg:-bottom-6 md:hidden"
         id="sun"
-        className="fixed bottom-0 right-0 z-10 
-      lg:scale-90 lg:-right-6 lg:-bottom-6 lg:opacity-95 md:hidden"
-      />
-      <img
-        src={planet2}
-        alt="mars"
+      >
+        <img src={planet1} alt="sun" className="lg:scale-90 lg:opacity-95" />
+      </div>
+      <div
+        className="fixed top-[20vh] right-[13vw] lg:right-20 
+        md:top-14 md:right-0 sm:top-8 sm:-right-8"
         id="mars"
-        className="fixed top-[20vh] right-[13vw] z-10 
-        lg:right-20 lg:opacity-75
-        md:scale-50 md:top-14 md:right-0
-        sm:top-8 sm:-right-8 sm:scale-[.3]"
-      />
-      <img
-        src={planet3}
-        alt="moon1"
-        id="moon1"
-        className="fixed bottom-[32vh] right-[25vw] z-10
-        lg:opacity-75"
-      />
-      <img
-        src={planet3}
-        alt="moon2"
-        id="moon2"
-        className="fixed bottom-[45vh] right-[9vw] z-10
-        lg:opacity-75"
-      />
+      >
+        <img
+          src={planet2}
+          alt="mars"
+          className="lg:opacity-75 md:scale-50 sm:scale-[.3]"
+        />
+      </div>
+      <div className="fixed bottom-[32vh] right-[25vw] z-10" id="moon1">
+        <img src={planet3} alt="moon1" className="lg:opacity-75" />
+      </div>
+      <div className="fixed bottom-[45vh] right-[9vw] z-10" id="moon2">
+        <img src={planet3} alt="moon2" className="lg:opacity-75" />
+      </div>
       <SectionNumber number={1} numberColor="light" />
     </section>
   )
