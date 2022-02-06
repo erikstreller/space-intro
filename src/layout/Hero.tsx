@@ -59,7 +59,7 @@ const Hero = () => {
       </div>
       <div
         className="fixed top-[20vh] right-[13vw] lg:right-20 
-        md:top-14 md:right-0 sm:top-8 sm:-right-8"
+        md:top-14 md:right-0 sm:top-8 sm:-right-8 z-10"
         id="mars"
       >
         <img
