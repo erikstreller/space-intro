@@ -7,7 +7,7 @@ const Contact = () => {
       className="w-full h-screen bg-dark relative flex justify-center items-center z-10"
     >
       <div className="text-overlay font-serif opacity-10 text-light">
-        Page coming
+        The End
       </div>
       <SectionNumber number={4} numberColor="light" lineColor="light" />
       <div className="absolute top-[70.5vh] left-10 text-light text-2xl sm:hidden">
